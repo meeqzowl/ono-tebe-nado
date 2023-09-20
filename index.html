@@ -24,21 +24,20 @@
           </li>
         </ul>
       </nav>
-      <div class="header__logo">
-        <a href="#">
+        <a class="header__logo">
           <img
             class="header__logo-image"
-            src="/images/logo-black.svg"
+            src="./images/logo-black.svg"
             alt="черное лого сайта"
           />
         </a>
-      </div>
       <address class="address header__address">
-        <a href="#">+9 999 555 5555</a><br />
-        <a href="#">info@sobaka.ge</a>
+        <a class="address__underline" href="tel:+9 999 555 5555">+9 999 555 5555</a><br />
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263-265,<br />Амстердам</p>
       </address>
     </header>
+    <main>
     <section class="cover">
       <div class="overlay"></div>
       <div class="cover__title">
@@ -67,15 +66,15 @@
       </div>
     </section>
     <section class="lots">
-      <h3 class="lots__heading">Лоты</h3>
+      <h2 class="lots__heading">Лоты</h2>
       <ul class="lots__card-list">
         <li class="lots__card-list-item">
           <a class="card-link" href="#">
             <article class="card card_type_film">
               <div class="overlay"></div>
-              <h4 class="card__title">
+              <h3 class="card__title">
                 Фильм режиссёра, который бросил киношколу
-              </h4>
+              </h3>
               <p class="card__text">
                 Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                 ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
@@ -87,9 +86,9 @@
           <a class="card-link" href="#">
             <article class="card card_type_book">
               <div class="overlay"></div>
-              <h4 class="card__title">
+              <h3 class="card__title">
                 Книга, где описан один скучный день из жизни рекламного агента
-              </h4>
+              </h3>
               <p class="card__text">
                 Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
                 переходами на древнеанглийский. В ней одновременно
@@ -105,9 +104,9 @@
           <a class="card-link" href="#">
             <article class="card card_type_picture">
               <div class="overlay"></div>
-              <h4 class="card__title">
+              <h3 class="card__title">
                 Картина, которую повторит даже 5-летний сын маминой подруги
-              </h4>
+              </h3>
               <p class="card__text">
                 Ну действительно, там линия, тут кружочек, а здесь и вовсе
                 что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
@@ -130,7 +129,7 @@
           />
         </div>
         <div class="about__info">
-          <h3 class="about__title">Об аукционе</h3>
+          <h2 class="about__title">Об аукционе</h2>
           <p class="about__text">
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
@@ -149,10 +148,11 @@
         </div>
       </div>
     </section>
+  </main>
     <footer class="footer">
       <address class="address">
-        <a href="#">+9 999 555 5555</a><br />
-        <a href="#">info@sobaka.ge</a>
+        <a class="address__underline" href="tel:+9 999 555 5555">+9 999 555 5555</a><br />
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263-265,<br />Амстердам</p>
       </address>
       <nav class="footer__menu">
@@ -163,13 +163,14 @@
             >
           </li>
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link" href="#">посмотреть лоты</a>
+            <a class="footer__menu-link footer__menu-underline" href="#">посмотреть лоты</a>
           </li>
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link" href="#">об аукционе</a>
+            <a class="footer__menu-link footer__menu-underline" href="#">об аукционе</a>
           </li>
         </ul>
       </nav>
+      <nav class="footer__social_objects">
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
           <a class="footer__social-link" href="https://www.youtube.com/">
@@ -199,6 +200,7 @@
           </a>
         </li>
       </ul>
+    </nav>
     </footer>
   </body>
 </html>
