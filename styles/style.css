@@ -282,7 +282,6 @@ p button {
 
 .about {
   max-width: 1440px;
-  height: 487px;
   margin: 181px auto auto auto;
   padding: 0 50px;
 }
@@ -290,7 +289,6 @@ p button {
 .about__column {
   display: grid;
   grid-template-columns: 430px 1fr;
-  grid-template-rows: 487px;
   justify-items: center;
   gap: 25px;
 }
@@ -320,16 +318,9 @@ p button {
 }
 
 .about__text {
-  margin-bottom: 25px;
-  color: #000;
-  font-family: Raleway, sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.about__text-second {
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* В макете 25px между параграфами, но есть отличия по макету визуально, поэтому указал 30px. В таком варианте больше похоже на макет. */
   color: #000;
   font-family: Raleway, sans-serif;
   font-size: 20px;
